@@ -38,17 +38,17 @@
     // -webkit-backdrop-filter: saturate(1.8) blur(8px);
     // backdrop-filter: saturate(1.8) blur(8px);
     height: 10rem;
-    max-width: 100%;
+    width: 100%;
     padding: 5rem 10rem;
     // padding-top:  5rem ;
     display: flex;
-    position: sticky;
+    // position: ;
     z-index: 30;
     justify-content:  space-between;
     align-items: center;
     // font-weight: 600;
     font-size: 2rem;
-    transition: .8s;
+    // transition: .8s;
     // background: rgba(0,0,0,0.6);
 
     .Hlink{
@@ -68,7 +68,19 @@
             font-size: 2rem;
             color: $pg-tx;
             text-decoration: none;
+
+            @media screen and (max-width:448px) {
+      
+                font-size: 2.5rem;
+       
+        } 
         }
+
+        @media screen and (max-width:448px) {
+      
+            width: 30%;
+   
+    } 
     }
 
 
@@ -90,6 +102,9 @@
 
      @media screen and (max-width:440px) {
          padding: 2rem 2rem;
+         a{
+             font-size: 3rem;
+         }
      }
     //  .blur{
     //     position: fixed;
