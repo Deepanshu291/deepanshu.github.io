@@ -6,7 +6,7 @@
     height: 100%;
     padding: 2rem 0;
     
-    margin-bottom: 5rem;
+    // margin-bottom: 5rem;
     background-color: rgb(20, 20, 20);
     border-radius: 3rem;
     border: .2rem solid goldenrod;
@@ -164,7 +164,9 @@
 }
 
 .buttons{
+    // position: relative;
     position: relative;
+    bottom: 0;
     display: flex;
     justify-content: center;
     .btn{
