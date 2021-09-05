@@ -126,9 +126,14 @@
     backdrop-filter:  blur(2px);
 
    @media (max-width:768px) {
-       width: 75%;
+       width: 85%;
        justify-content: space-between;
-       padding: 5rem 5rem;
+    //    padding: 5rem 5rem;
+       padding-right: 5rem;
+   }
+
+   @media screen  and (max-width:440px){
+       width: 95%;
    }
 }
 

@@ -8,7 +8,7 @@
     
     margin-bottom: 5rem;
     background-color: rgb(20, 20, 20);
-    border-radius: 5rem;
+    border-radius: 3rem;
     border: .2rem solid goldenrod;
     // box-shadow: 1rem 1rem .5rem goldenrod;
     box-shadow: 0 4px 8px 0 gold, 0 6px 20px 0 goldenrod;
@@ -16,14 +16,7 @@
         height: auto;
         padding-bottom: 5rem;
     }
-// .camera{
-//     background-color: black;
-//     width: 2rem;
-//     height: 2rem;
-//     position: relative;
-//     left: 50%;
-//     border-radius: 50%;
-// }    
+    
 .container{
     // margin: 2rem 2rem;
     // margin-bottom: 2rem;
@@ -148,7 +141,7 @@
             height: 40rem;
         }
            @media screen and (max-width:440px){
-            width: 45rem;
+            width: 40rem;
             height: 45rem;
         }
         
